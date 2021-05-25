@@ -1,6 +1,6 @@
 import unittest
 
-from package import sample_function
+from src.package import sample_function
 
 
 class TestSampleModules(unittest.TestCase):
