@@ -1,11 +1,11 @@
-# python_cli_template
+# python_package_template
 
 ## install
 
 - Install using pip.
 
 ```shell
-% pip install git+https://github.com/nokonoko1203/python_package_template
+% pip install git+https://github.com/nokonoko1203/python_package_template.git
 ```
 
 ## usage
