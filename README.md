@@ -8,13 +8,19 @@
 % pip install git+https://github.com/nokonoko1203/python_package_sample.git
 ```
 
+- using pipenv
+
+```shell
+% pipenv install -e git+https://github.com/nokonoko1203/python_package_sample.git#egg=python_package_sample
+```
+
 ## usage
 
 ```python
 from python_package_sample import sample_function
 
 def main():
-    sample_function()
+    print(sample_function())
 
 
 if __name__ == '__main__':
