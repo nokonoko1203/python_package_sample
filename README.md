@@ -11,7 +11,7 @@
 ## usage
 
 ```python
-from package import sample_function
+from python_package_sample import sample_function
 
 def main():
     sample_function()
@@ -34,7 +34,7 @@ if __name__ == '__main__':
 ### test
 
 ```shell
-% pipenv run python -m unittest discover tests                                                                    [master]:+
+% pipenv run python -m unittest discover tests
 run a test of sample_function
 .
 ----------------------------------------------------------------------

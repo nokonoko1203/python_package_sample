@@ -1,11 +1,11 @@
 import unittest
 
-from src.package import sample_function
+from src.python_package_sample import sample_function
 
 
 class TestSampleModules(unittest.TestCase):
     def test_sample_function(self):
-        """package/sample_modules/sample_function()のテスト
+        """python_package_sample/sample_modules/sample_function()のテスト
 
         """
         print('run a test of sample_function')
