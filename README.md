@@ -1,4 +1,4 @@
-# python_package_template
+# python_package_sample
 
 ## install
 
