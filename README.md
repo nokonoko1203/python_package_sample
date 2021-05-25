@@ -5,13 +5,20 @@
 - Install using pip.
 
 ```shell
-% pip install git+https://github.com/nokonoko1203/python_package_template.git
+% pip install git+https://github.com/nokonoko1203/python_package_sample.git
 ```
 
 ## usage
 
-```shell
+```python
+from package import sample_function
 
+def main():
+    sample_function()
+
+
+if __name__ == '__main__':
+    main()
 ```
 
 ## for develop
