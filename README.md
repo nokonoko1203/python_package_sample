@@ -11,7 +11,7 @@
 - using pipenv
 
 ```shell
-% pipenv install -e git+https://github.com/nokonoko1203/python_package_sample.git#egg=python_package_sample
+% pipenv install git+https://github.com/nokonoko1203/python_package_sample.git#egg=python_package_sample
 ```
 
 ## usage
